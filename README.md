@@ -1,2 +1,19 @@
 # dark_infer_collections
-Low-light image enhancement inference code collections
+Here are the low-light image enhancement inference code collections. 
+
+## Why this project?
+Thanks to the researchers for contributing to facilitating the low-light image enhancement field. Nevertheless, I find that there are still many inconveniences for followers due to various factors:
+
+* **Framework**: Some of the models were implemented by Tensorflow, and some were by Pytorch. On the other hand, early works used old-version frameworks, which is not suitable for the recent ones.
+
+* **Coding style**: Different coders have different coding styles. It occasionally makes the code reading difficult.
+
+* **Closed source**: Some researchers have not released their codes publicly. For newbies, reproducing codes is hard.
+
+Therefore, I want to create a unified codes repository for low-light image enhancement by the latest PyTorch framework. This repository includes the inference code collections. If I have more time, I will organize training codes later.
+Welcome to join the project!
+
+
+## Recent updates
+
+
