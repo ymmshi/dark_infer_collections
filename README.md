@@ -22,16 +22,16 @@ Welcome to join the project!
 
 ## TODO
 
-
-|Pytorch           |Tensorflow        |Keras                 |
-|:---:             |:---:             |:---:                 |
-|- [ ] DeepUPE     |- [ ] Retinex-Net |- [ ] MBLLEN          |
-|- [ ] DRBN        |- [ ] KinD        |- [ ] AGLLNet         |
-|- [ ] DRBN-v2     |- [ ] KinD++      |                      |
-|- [ ] SGR         |                  |                      |
-|- [ ] EnlightenGAN|                  |                      |
-|- [ ] ZeroDCE     |                  |                      |
-|- [ ] ZeroDCE++   |                  |                      |
+<!-- ✅ ⭕️ ❌-->
+|Pytorch        |Tensorflow     |Keras             |
+|---            |---            |---               |
+|⭕️ DeepUPE     |⭕️ Retinex-Net |⭕️ MBLLEN          |
+|⭕️ DRBN        |⭕️ KinD        |⭕️ AGLLNet         |
+|⭕️ DRBN-v2     |⭕️ KinD++      |                   |
+|⭕️ SGR         |               |                   |
+|⭕️ EnlightenGAN|               |                   |
+|⭕️ ZeroDCE     |               |                   |
+|⭕️ ZeroDCE++   |               |                   |
 
 # License
 The codes are made available for academic research purpose only.
