@@ -36,4 +36,9 @@ Welcome to join the project!
 - [ ] KinD
 - [ ] KinD++
 
+# License
+The codes are made available for academic research purpose only.
+## Other links
+[Lighting-the-Darkness-in-the-Deep-Learning-Era-Open](https://github.com/Li-Chongyi/Lighting-the-Darkness-in-the-Deep-Learning-Era-Open)
+
 
