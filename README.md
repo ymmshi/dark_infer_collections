@@ -15,8 +15,19 @@ Welcome to join the project!
 
 
 ## Recent updates
-
+    2022.4.14 ZeroDCE ZeroDCE++
+    2022.4.12 start project
 ## Requirements
+install 
+
+    python 3.6+
+    pillow
+    torch
+    torchvision
+
+or 
+
+    pip install -r requirements.txt
 
 ## How to run
 
