@@ -31,6 +31,14 @@ or
 
 ## How to run
 
+If testing only one model, e.g., ZeroDCE, you can run the code as follows:
+
+    python ZeroDCE/infer.py
+
+Then you can see the results in the folder "output".
+
+<!-- You can also modify the `in_path` and `out_path` to your own. -->
+
 ## TODO
 
 <!-- ✅ ⭕️ ❌-->
