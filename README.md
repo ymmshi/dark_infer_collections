@@ -30,8 +30,8 @@ Welcome to join the project!
 |⭕️ DRBN-v2     |⭕️ KinD++      |                   |
 |⭕️ SGR         |               |                   |
 |⭕️ EnlightenGAN|               |                   |
-|⭕️ ZeroDCE     |               |                   |
-|⭕️ ZeroDCE++   |               |                   |
+|✅ ZeroDCE     |               |                   |
+|✅ ZeroDCE++   |               |                   |
 
 # License
 The codes are made available for academic research purpose only.
