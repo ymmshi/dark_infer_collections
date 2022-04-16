@@ -49,7 +49,7 @@ Then you can see the results in the folder "output".
 |⭕️ DRBN        |⭕️ KinD        |⭕️ AGLLNet         |
 |⭕️ DRBN-v2     |⭕️ KinD++      |                   |
 |⭕️ SGR         |               |                   |
-|⭕️ EnlightenGAN|               |                   |
+|✅ EnlightenGAN|               |                   |
 |✅ ZeroDCE     |               |                   |
 |✅ ZeroDCE++   |               |                   |
 
