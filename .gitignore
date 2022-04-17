@@ -130,4 +130,5 @@ dmypy.json
 
 # custom
 output
-pre_weight.*
+pre_weights
+weights

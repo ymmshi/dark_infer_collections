@@ -16,7 +16,7 @@ Welcome to join the project!
 
 ## Recent updates
 
-#### 2022.4.17 add DRBN(stage1, stag2)
+#### 2022.4.17 add DRBN(stage1, stag2) & SGM
 #### 2022.4.16 add EnlightenGAN
 #### 2022.4.14 add ZeroDCE & ZeroDCE++
 #### 2022.4.12 start project
@@ -46,15 +46,15 @@ Then you can see the results in the folder "output".
 ## TODO
 
 <!-- ✅ ⭕️ ❌-->
-|Pytorch        |Tensorflow     |Keras             |
-|---            |---            |---               |
-|⭕️ DeepUPE     |⭕️ Retinex-Net |⭕️ MBLLEN          |
-|✅ DRBN        |⭕️ KinD        |⭕️ AGLLNet         |
-|⭕️ DRBN-v2     |⭕️ KinD++      |                   |
-|⭕️ SGR         |               |                   |
-|✅ EnlightenGAN|               |                   |
-|✅ ZeroDCE     |               |                   |
-|✅ ZeroDCE++   |               |                   |
+|Pytorch|Tensorflow|Keras|
+|---  |---  |--- |
+|✅ DRBN |⭕️ Retinex-Net |⭕️ MBLLEN |
+|⭕️ DRBN-v2 |⭕️ GladNet |⭕️ AGLLNet |
+|✅ SGM |⭕️ DeepUPE | |
+|✅ EnlightenGAN |⭕️ KinD | |
+|✅ ZeroDCE |⭕️ KinD++ | |
+|✅ ZeroDCE++ | | |
+| | | |
 
 # License
 The codes are made available for academic research purpose only.
