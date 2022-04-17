@@ -16,8 +16,9 @@ Welcome to join the project!
 
 ## Recent updates
 
-#### 2022.4.16 EnlightenGAN
-#### 2022.4.14 ZeroDCE ZeroDCE++
+#### 2022.4.17 add DRBN(stage1, stag2)
+#### 2022.4.16 add EnlightenGAN
+#### 2022.4.14 add ZeroDCE & ZeroDCE++
 #### 2022.4.12 start project
 
 ## Requirements
@@ -48,7 +49,7 @@ Then you can see the results in the folder "output".
 |Pytorch        |Tensorflow     |Keras             |
 |---            |---            |---               |
 |⭕️ DeepUPE     |⭕️ Retinex-Net |⭕️ MBLLEN          |
-|⭕️ DRBN        |⭕️ KinD        |⭕️ AGLLNet         |
+|✅ DRBN        |⭕️ KinD        |⭕️ AGLLNet         |
 |⭕️ DRBN-v2     |⭕️ KinD++      |                   |
 |⭕️ SGR         |               |                   |
 |✅ EnlightenGAN|               |                   |
