@@ -13,6 +13,7 @@ out_path = './output/ZeroDCE'
 def load_model():
     from model import Model as ZeroDCE
     model = ZeroDCE()
+    model.load_weight()
     return model.eval().cuda()
 
 

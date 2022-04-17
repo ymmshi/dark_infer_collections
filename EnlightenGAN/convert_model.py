@@ -1,7 +1,7 @@
 import torch
 
 if __name__ == '__main__':
-    weight = torch.load('EnlightenGAN/pre_weight.pth')
+    weight = torch.load('pre_weights/EnlightenGAN/200_net_G_A.pth')
     key_dic = {
         'module.conv1_1.weight':     'encoder1.en1.0.weight',
         'module.conv1_1.bias':       'encoder1.en1.0.bias',
@@ -131,4 +131,4 @@ if __name__ == '__main__':
     for k, v in weight.items():
         if k in key_dic:
             new_weight[key_dic[k]] = v
-    torch.save(new_weight, 'EnlightenGAN/weight.pth')
+    torch.save(new_weight, 'weights/EnlightenGAN/weight.pth')

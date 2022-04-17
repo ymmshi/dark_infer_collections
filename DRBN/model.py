@@ -96,9 +96,9 @@ class Model(nn.Module):
         self.recur2 = DRBN_BU(init_dim, grow_dim, nConvLayers)
         self.recur3 = DRBN_BU(init_dim, grow_dim, nConvLayers)
         self.recur4 = DRBN_BU(init_dim, grow_dim, nConvLayers)
-        self.load_weight('DRBN/weight_s1.pth')
+        self.load_weight('weights/DRBN/weight_s1.pth')
         if self.is_stage2_model:
-            self.load_weight('DRBN/weight_s2.pth')
+            self.load_weight('weights/DRBN/weight_s2.pth')
             self.recom = Recompose(init_dim, grow_dim, nConvLayers)
             
 
@@ -111,7 +111,7 @@ class Model(nn.Module):
             res = [self.recom([x, res[2], res[1], res[0]])]
         return res[0]
 
-    def load_weight(self, weight_path='DRBN/weight_s1.pth'):
+    def load_weight(self, weight_path):
         weight = torch.load(weight_path)
         self.load_state_dict(weight)
 
@@ -129,9 +129,9 @@ class Recompose(nn.Module):
 
         self.UPNet = nn.Conv2d(init_dim, init_dim, 3, 1, 1)
         self.UPNet2 = nn.Conv2d(init_dim, 9, 3, 1, 1)
-        self.load_weight('DRBN/weight_r_s2.pth')
+        self.load_weight('weights/DRBN/weight_r_s2.pth')
     
-    def load_weight(self, weight_path='DRBN/weight_r_s2.pth'):
+    def load_weight(self, weight_path):
         weight = torch.load(weight_path)
         self.load_state_dict(weight)
 

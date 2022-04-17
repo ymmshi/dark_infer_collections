@@ -34,6 +34,7 @@ or
     pip install -r requirements.txt
 
 ## How to run
+Download the pre-trained models([OneDrive Password:ymshi](https://mailustceducn-my.sharepoint.com/personal/ymshi_mail_ustc_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fymshi%5Fmail%5Fustc%5Fedu%5Fcn%2FDocuments%2F学习%2Fgithub%2Fweights&ga=1)) and put "weights" folder into the  "dark_infer_collections" fodler.
 
 If testing only one model, e.g., ZeroDCE, you can run the code as follows:
 

@@ -17,6 +17,7 @@ out_path = './output/EnlightenGAN'
 def load_model():
     from model import Model
     model = Model()
+    model.load_weight('weights/EnlightenGAN/weight.pth')
     return model.eval().cuda()
 
 

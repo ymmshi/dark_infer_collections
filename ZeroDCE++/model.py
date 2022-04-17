@@ -43,7 +43,6 @@ class Model(nn.Module):
         self.e_conv5 = CSDN_Tem(dim*2, dim)
         self.e_conv6 = CSDN_Tem(dim*2, dim)
         self.e_conv7 = CSDN_Tem(dim*2, 3)
-        self.load_weight()
 
     def forward(self, x):
         x_down = F.interpolate(x, scale_factor=1/self.scale_factor, mode='bilinear', align_corners=True, recompute_scale_factor=True)
@@ -60,7 +59,7 @@ class Model(nn.Module):
             x = x + x_r * (torch.pow(x, 2) - x)
         return x
 
-    def load_weight(self, weight_path='ZeroDCE++/weight.pth'):
+    def load_weight(self, weight_path='weights/ZeroDCE++/weight.pth'):
         weight = torch.load(weight_path)
         self.load_state_dict(weight)
 

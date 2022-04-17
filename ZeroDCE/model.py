@@ -13,7 +13,6 @@ class Model(nn.Module):
         self.e_conv5 = nn.Conv2d(dim*2, dim, 3, 1, 1, bias=True)
         self.e_conv6 = nn.Conv2d(dim*2, dim, 3, 1, 1, bias=True)
         self.e_conv7 = nn.Conv2d(dim*2, 24, 3, 1, 1, bias=True)
-        self.load_weight()
 
     def forward(self, x):
         x1 = self.relu(self.e_conv1(x))
@@ -28,7 +27,7 @@ class Model(nn.Module):
             x = x + r * (torch.pow(x, 2) - x)
         return x
 
-    def load_weight(self, weight_path='ZeroDCE/weight.pth'):
+    def load_weight(self, weight_path='weights/ZeroDCE/weight.pth'):
         weight = torch.load(weight_path)
         self.load_state_dict(weight)
 

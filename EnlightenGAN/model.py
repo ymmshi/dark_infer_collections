@@ -74,8 +74,6 @@ class Model(nn.Module):
         self.decoder8 = DecoderBlock(128, 64)
         self.decoder9 = DecoderBlock(64, 32, True)
         self.decoder10 = nn.Conv2d(32, 3, 1)
-
-        self.load_weight()
     
     def to_gray(self, img):
         gray = 1. - (0.299 * img[:, 0, :, :] + 
@@ -106,7 +104,7 @@ class Model(nn.Module):
         output = x * grays[0] + img
         return output
 
-    def load_weight(self, weight_path='EnlightenGAN/weight.pth'):
+    def load_weight(self, weight_path):
         weight = torch.load(weight_path)
         self.load_state_dict(weight)
 
