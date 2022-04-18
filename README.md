@@ -47,15 +47,21 @@ Then you can see the results in the folder "output".
 ## TODO
 
 <!-- ✅ ⭕️ ❌-->
-|Pytorch|Tensorflow|Keras|
-|---  |---  |--- |
-|✅ DRBN |⭕️ Retinex-Net |⭕️ MBLLEN |
-|⭕️ DRBN-v2 |⭕️ GladNet |⭕️ AGLLNet |
-|✅ SGM |⭕️ DeepUPE | |
-|✅ EnlightenGAN |⭕️ KinD | |
-|✅ ZeroDCE |⭕️ KinD++ | |
-|✅ ZeroDCE++ | | |
-| | | |
+|Pytorch|Tensorflow/Keras|Other framework|Non-public|
+|---  |---  |--- | --- |
+|✅ DRBN |⭕️ Retinex-Net |⭕️ SICE|⭕️ D&E| 
+|⭕️ DRBN-v2 |⭕️ GladNet |⭕️ LightenNet |⭕️ DLN |
+|✅ SGM |⭕️ DeepUPE |⭕️ LLNet | ⭕️ PRIEN|
+|✅ EnlightenGAN |⭕️ KinD | ⭕️TBEFN|  ⭕️ ProRetinex|
+|✅ ZeroDCE |⭕️ KinD++ |⭕️ExCNet |⭕️Component-GAN|
+|✅ ZeroDCE++ |⭕️ ISSR  | | |
+|⭕️ DALE |⭕️ MBLLEN  | | |
+|⭕️ DSLR |⭕️ AGLLNet | | |
+|⭕️ StableLLVE| | | |
+|⭕️ LPNet| | | |
+|⭕️ ReLLIE| | | |
+|⭕️ RUAS| | | |
+|⭕️ RRDNet| | | |
 
 # License
 The codes are made available for academic research purpose only.
