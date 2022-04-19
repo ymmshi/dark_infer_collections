@@ -16,6 +16,7 @@ Welcome to join the project!
 
 ## Recent updates
 
+#### 2022.4.19 add DALE
 #### 2022.4.17 add DRBN(stage1, stag2) & SGM
 #### 2022.4.16 add EnlightenGAN
 #### 2022.4.14 add ZeroDCE & ZeroDCE++
@@ -55,7 +56,7 @@ Then you can see the results in the folder "output".
 |✅ EnlightenGAN |⭕️ KinD | ⭕️TBEFN|  ⭕️ ProRetinex|
 |✅ ZeroDCE |⭕️ KinD++ |⭕️ExCNet |⭕️Component-GAN|
 |✅ ZeroDCE++ |⭕️ ISSR  | | |
-|⭕️ DALE |⭕️ MBLLEN  | | |
+|✅  DALE |⭕️ MBLLEN  | | |
 |⭕️ DSLR |⭕️ AGLLNet | | |
 |⭕️ StableLLVE| | | |
 |⭕️ LPNet| | | |
