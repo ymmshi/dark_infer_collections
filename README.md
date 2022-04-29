@@ -15,9 +15,9 @@ Welcome to join the project!
 
 
 ## Recent updates
-
+#### 2022.4.29 add ReLLIE (**need to improve**)
 #### 2022.4.19 add DALE
-#### 2022.4.17 add DRBN(stage1, stag2) & SGM
+#### 2022.4.17 add DRBN(stage1, stage2) & SGM
 #### 2022.4.16 add EnlightenGAN
 #### 2022.4.14 add ZeroDCE & ZeroDCE++
 #### 2022.4.12 start project
@@ -60,7 +60,7 @@ Then you can see the results in the folder "output".
 |⭕️ DSLR |⭕️ AGLLNet | | |
 |⭕️ StableLLVE| | | |
 |⭕️ LPNet| | | |
-|⭕️ ReLLIE| | | |
+|✅ ReLLIE| | | |
 |⭕️ RUAS| | | |
 |⭕️ RRDNet| | | |
 
