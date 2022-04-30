@@ -15,6 +15,7 @@ Welcome to join the project!
 
 
 ## Recent updates
+#### 2022.4.30 add DSLR
 #### 2022.4.29 add ReLLIE (**need to improve**)
 #### 2022.4.19 add DALE
 #### 2022.4.17 add DRBN(stage1, stage2) & SGM
@@ -57,7 +58,7 @@ Then you can see the results in the folder "output".
 |✅ ZeroDCE |⭕️ KinD++ |⭕️ExCNet |⭕️Component-GAN|
 |✅ ZeroDCE++ |⭕️ ISSR  | | |
 |✅  DALE |⭕️ MBLLEN  | | |
-|⭕️ DSLR |⭕️ AGLLNet | | |
+|✅ DSLR |⭕️ AGLLNet | | |
 |⭕️ StableLLVE| | | |
 |⭕️ LPNet| | | |
 |✅ ReLLIE| | | |
