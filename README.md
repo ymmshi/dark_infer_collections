@@ -15,6 +15,7 @@ Welcome to join the project!
 
 
 ## Recent updates
+#### 2022.5.2 add RUAS
 #### 2022.4.30 add DSLR
 #### 2022.4.29 add ReLLIE (**need to improve**)
 #### 2022.4.19 add DALE
@@ -62,7 +63,7 @@ Then you can see the results in the folder "output".
 |⭕️ StableLLVE| | | |
 |⭕️ LPNet| | | |
 |✅ ReLLIE| | | |
-|⭕️ RUAS| | | |
+|✅ RUAS| | | |
 |⭕️ RRDNet| | | |
 
 # License
