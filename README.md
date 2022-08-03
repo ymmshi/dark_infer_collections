@@ -15,6 +15,9 @@ Welcome to join the project!
 
 
 ## Recent updates
+#### 2022.8.3 add UTVNet (by ME)
+#### 2022.7.30 add Gamma (by ME)
+#### 2022.7.28 add SCI (by ME)
 #### 2022.5.2 add RUAS
 #### 2022.4.30 add DSLR
 #### 2022.4.29 add ReLLIE (**need to improve**)
