@@ -1,23 +1,23 @@
+from glob import glob
 import os
-from PIL import Image
 import numpy as np
+from PIL import Image
 import time
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 from tqdm import tqdm
 
-model_name = 'Gamma'
+model_name = 'KinD++'
 in_path = './input/test.png'
 out_path = './output/' + model_name
-enlight_ratio = 1.8 # the larger, the brighter
 
 def load_model():
-    model = Gamma
+    from model import Model
+    model = Model()
+    model.load_weight()
     return model
 
-def Gamma(img):
-    bright_arr = np.array(img) * enlight_ratio
-    bright_arr = bright_arr.astype('uint8')
-    image_bright = Image.fromarray(bright_arr)
-    return image_bright
 
 def load_data_paths():
     global in_path, out_path
@@ -43,20 +43,24 @@ def inference(model, input_paths):
             os.makedirs(os.path.dirname(output_path))
 
         img = Image.open(input_path)
+        img = np.array(img, dtype="float32") / 255.0
+        img_max = np.max(img)
+        img_min = np.min(img)
+        img = np.float32((img - img_min) / np.maximum((img_max - img_min), 0.001))
 
         tic = time.time()
         output = model(img)
         toc = time.time()
         total_time += toc - tic
 
+        output = Image.fromarray(np.clip(np.squeeze(output) * 255.0, 0, 255.0).astype('uint8'))
         output.save(output_path)
     print('{} Total time: {:.4f}s Speed: {:.4f}s/img'.format(model_name, total_time, total_time / len(input_paths)))
+
 
 
 if __name__ == '__main__':
     model = load_model()
     input_paths = load_data_paths()
-    input_paths = input_paths[:]
     inference(model, input_paths)
     
-
