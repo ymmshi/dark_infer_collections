@@ -8,18 +8,17 @@ import time
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
+from utils.util import *
 from tqdm import tqdm
 
-model_name = 'SCI'
+model_name = 'UTVNet'
 in_path = './input/test.png'
 out_path = './output/' + model_name
-model_type = 'difficult' # 'easy' || 'medium' || 'difficult'
 
 def load_model():
     from model import Model
     model = Model()
-    model.load_weight('weights/SCI/{}.pth'.format(model_type))
-    model.eval()
+    model.load_weight('weights/UTVNet/weight.pth')
     return model.eval().cuda()
 
 
