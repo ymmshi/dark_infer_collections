@@ -8,6 +8,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from tqdm import tqdm
 
+
 model_name = 'KinD++'
 in_path = './input/test.png'
 out_path = './output/' + model_name
@@ -47,6 +48,11 @@ def inference(model, input_paths):
         img_max = np.max(img)
         img_min = np.min(img)
         img = np.float32((img - img_min) / np.maximum((img_max - img_min), 0.001))
+        # the size of test image H and W need to be multiple of 4, if it is not a multiple of 4, we will discard some border pixels.  
+        h,w,c = img.shape
+        h_tmp = h%4
+        w_tmp = w%4
+        img = img[0:h-h_tmp, 0:w-w_tmp, :]
 
         tic = time.time()
         output = model(img)
