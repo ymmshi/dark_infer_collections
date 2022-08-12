@@ -15,6 +15,11 @@ Welcome to join the project!
 
 
 ## Recent updates
+#### 2022.8.3 add KinD++ (by ME)
+#### 2022.8.3 add KinD (by ME)
+#### 2022.8.3 add UTVNet (by ME)
+#### 2022.7.30 add Gamma (by ME)
+#### 2022.7.28 add SCI (by ME)
 #### 2022.5.2 add RUAS
 #### 2022.4.30 add DSLR
 #### 2022.4.29 add ReLLIE (**need to improve**)
@@ -37,7 +42,7 @@ or
     pip install -r requirements.txt
 
 ## How to run
-Download the pre-trained models([OneDrive Password:ymshi](https://mailustceducn-my.sharepoint.com/:f:/g/personal/ymshi_mail_ustc_edu_cn/Ejoo9mGJzihDoHRKKB6TL9MBO6G_jAy5nqejHa-jWoprpw)) and put "weights" folder into the  "dark_infer_collections" fodler.
+Download the pre-trained models([OneDrive Password:ymshi](https://mailustceducn-my.sharepoint.com/:f:/g/personal/ymshi_mail_ustc_edu_cn/Ejoo9mGJzihDoHRKKB6TL9MBO6G_jAy5nqejHa-jWoprpw)) and put "weights" folder into the  "dark_infer_collections" folder.
 
 If testing only one model, e.g., ZeroDCE, you can run the code as follows:
 
@@ -55,8 +60,8 @@ Then you can see the results in the folder "output".
 |✅ DRBN |⭕️ Retinex-Net |⭕️ SICE|⭕️ D&E| 
 |⭕️ DRBN-v2 |⭕️ GladNet |⭕️ LightenNet |⭕️ DLN |
 |✅ SGM |⭕️ DeepUPE |⭕️ LLNet | ⭕️ PRIEN|
-|✅ EnlightenGAN |⭕️ KinD | ⭕️TBEFN|  ⭕️ ProRetinex|
-|✅ ZeroDCE |⭕️ KinD++ |⭕️ExCNet |⭕️Component-GAN|
+|✅ EnlightenGAN |✅ KinD | ⭕️TBEFN|  ⭕️ ProRetinex|
+|✅ ZeroDCE |✅ KinD++ |⭕️ExCNet | ⭕️Component-GAN|
 |✅ ZeroDCE++ |⭕️ ISSR  | | |
 |✅  DALE |⭕️ MBLLEN  | | |
 |✅ DSLR |⭕️ AGLLNet | | |
